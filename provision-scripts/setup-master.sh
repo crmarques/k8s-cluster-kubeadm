@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # init kube master
-sudo kubeadm init --pod-network-cidr=10.244.0.0/16 --apiserver-advertise-address 192.168.1.100
+sudo kubeadm init --pod-network-cidr=10.244.0.0/16 --apiserver-advertise-address 192.168.25.100
 
 # setup
 mkdir -p $HOME/.kube
