@@ -12,6 +12,18 @@ cd k8s-cluster-kubeadm
 vagrant up
 ```
 
+## Setup master node
+
+```
+vagrant ssh master
+```
+
+and execute the following command:
+
+```
+/vagrant/provision-scripts/setup-master.sh
+```
+
 ## Setup slave nodes
 
 Check the master node output looking for the following string:
