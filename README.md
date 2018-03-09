@@ -5,7 +5,7 @@
 - Vagrant
 - Virtualbox
 
-## Create the machines: 1 master and 2 nodes
+## Create the VMs: 1 master and 2 nodes
 
 ```
 cd k8s-cluster-kubeadm
