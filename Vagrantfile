@@ -7,7 +7,7 @@ Vagrant.configure("2") do |config|
   config.vm.define "master" do |master|
     master.vm.network "public_network", ip: "192.168.25.100"
     master.vm.hostname = "master"
-    master.vm.provision "shell", path: "provision-scripts/setup-master.sh"
+#    master.vm.provision "shell", path: "provision-scripts/setup-master.sh"
   end
 
   config.vm.define "node01" do |node01|
